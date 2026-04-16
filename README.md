@@ -27,7 +27,7 @@ This script will use pre-trained models to generate a specified number of sequen
 ### Training Models
 
 - `flow_trainer.py`: Train the flow matching model
-- `esm_gen.py`: ESM generation related code
+- `esm_gen.py`: AMP generation related code
 
 ## Data
 
