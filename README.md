@@ -20,6 +20,7 @@ Run `inference.py` to generate protein sequence samples:
 
 ```bash
 python inference.py
+python esm_gen.py
 ```
 
 This script will use pre-trained models to generate a specified number of sequences and save them to the `esmflow/gen_out/` directory.
@@ -27,7 +28,9 @@ This script will use pre-trained models to generate a specified number of sequen
 ### Training Models
 
 - `flow_trainer.py`: Train the flow matching model
-- `esm_gen.py`: AMP generation related code
+- `esm_encoder.py`: Encode
+- `esm_decoder.py`: Decode
+- `autoencoder.py`: Dimensionality reduction
 
 ## Data
 
